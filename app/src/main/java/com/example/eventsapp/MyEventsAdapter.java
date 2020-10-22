@@ -32,9 +32,10 @@ public class MyEventsAdapter extends RecyclerView.Adapter<MyEventsAdapter.Events
     @Override
     public void onBindViewHolder(@NonNull EventsViewHolder holder, int position) {
         MyEvents myEvents = myEventsList.get(position);
-        holder.event_name.setText(myEvents.getEvent_name());
-        holder.event_age.setText(myEvents.getEvent_age());
-        holder.events_logo.setImageResource(myEvents.getEvent_logo());
+        holder.event_background.setImageResource(myEvents.getEvent_background());
+        holder.event_avatar.setImageResource(myEvents.getEvent_avatar());
+        holder.event_title.setText(myEvents.getEvent_title());
+        holder.event_distance.setText(myEvents.getEvent_distance());
     }
 
     @Override
@@ -44,15 +45,16 @@ public class MyEventsAdapter extends RecyclerView.Adapter<MyEventsAdapter.Events
 
     public class EventsViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView events_logo;
-        TextView event_name, event_age;
+        ImageView event_background , event_avatar;
+        TextView event_title, event_distance;
 
         public EventsViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            events_logo = itemView.findViewById(R.id.id_imageview_logo);
-            event_name = itemView.findViewById(R.id.id_textview_Name);
-            event_age = itemView.findViewById(R.id.id_textview_Age);
+            event_background = itemView.findViewById(R.id.id_event_background);
+            event_avatar = itemView.findViewById(R.id.id_event_avatar);
+            event_title = itemView.findViewById(R.id.id_event_title);
+            event_distance = itemView.findViewById(R.id.id_event_distance);
         }
     }
 }
