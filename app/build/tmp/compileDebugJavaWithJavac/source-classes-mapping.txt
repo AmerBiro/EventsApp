@@ -1,0 +1,21 @@
+com/example/eventsapp/MyChat.java
+ com.example.eventsapp.MyChat
+ com.example.eventsapp.MyChat$1
+com/example/eventsapp/MainActivity.java
+ com.example.eventsapp.MainActivity
+ com.example.eventsapp.MainActivity$1
+ com.example.eventsapp.MainActivity$2
+ com.example.eventsapp.MainActivity$3
+com/example/eventsapp/MyEventsAdapter.java
+ com.example.eventsapp.MyEventsAdapter
+ com.example.eventsapp.MyEventsAdapter$EventsViewHolder
+com/example/eventsapp/MyFilter.java
+ com.example.eventsapp.MyFilter
+ com.example.eventsapp.MyFilter$1
+com/example/eventsapp/MyEvents.java
+ com.example.eventsapp.MyEvents
+com/example/eventsapp/MyAccount.java
+ com.example.eventsapp.MyAccount
+ com.example.eventsapp.MyAccount$1
+com/example/eventsapp/BuildConfig.java
+ com.example.eventsapp.BuildConfig
