@@ -17,11 +17,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ViewPager2 viewpager2_events_view;
-    List<MyEvents> myEventsList;
-    MyEventsAdapter myEventsAdapter;
+    private ViewPager2 viewpager2_events_view;
+    private List<MyEvents> myEventsList;
+    private MyEventsAdapter myEventsAdapter;
 
-    ImageButton button_account, button_chat, button_filter;
+    private ImageButton button_account, button_chat, button_filter;
 
 
 

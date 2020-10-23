@@ -1866,9 +1866,10 @@ id id_button_favorite
 id id_button_filter
 id id_button_share
 id id_event_avatar
-id id_event_background
+id id_event_background_content
 id id_event_distance
 id id_event_title
+id id_event_view
 id id_viewpager2_events_view
 id ifRoom
 id ignore
@@ -2152,6 +2153,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_event__content
 layout activity_main
 layout activity_my_account
 layout activity_my_chat

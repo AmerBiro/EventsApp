@@ -120,6 +120,10 @@
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_event__content.xml.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\layout\\activity_event__content.xml"
+    },
+    {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_event_avatar_05.jpg.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\event_avatar_05.jpg"
     },

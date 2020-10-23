@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\d120e3389b5b2bf5483512dd549ca273\material-1.3.0-alpha03\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\ef65eb46079c4e4e8fdff66f1cfdf6a0\constraintlayout-2.0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\a527ad4f532df6b258c428a911debd89\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -37,25 +37,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Biro\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\af090a78eaea8296976d6555a3a135f2\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\4277c449ae4e7defb11901a027a49277\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\01339aeadc2379d14234ec1725fb1d1d\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\d120e3389b5b2bf5483512dd549ca273\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha03] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\d120e3389b5b2bf5483512dd549ca273\material-1.3.0-alpha03\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\ef65eb46079c4e4e8fdff66f1cfdf6a0\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
@@ -78,36 +78,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Bi
 		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:11:9-47
-activity#com.example.eventsapp.MainActivity2
+activity#com.example.eventsapp.Event_Content
 ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:12:9-60
 	android:name
 		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:12:19-48
+activity#com.example.eventsapp.MainActivity2
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:9-51
+	android:name
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:19-48
 activity#com.example.eventsapp.MyFilter
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:9-46
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:9-46
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:19-43
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:19-43
 activity#com.example.eventsapp.MyChat
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:9-44
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:9-44
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:19-41
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:19-41
 activity#com.example.eventsapp.MyAccount
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:9-47
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:9-47
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:19-44
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:19-44
 activity#com.example.eventsapp.MainActivity
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:17:13-21:29
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:17-69
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:25-66
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:20:17-77
+ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:20:27-74
+		ADDED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
