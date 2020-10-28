@@ -13,4 +13,21 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!--
+Font family: Antic
+Line height: 14sp
+-->
+    <!-- styles.xml -->
+    <style name="sign_up">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #838383
+        </item>
+
+    </style>
 </resources>

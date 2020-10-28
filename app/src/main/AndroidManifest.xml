@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Event_Content"></activity>
-        <activity android:name=".MyFilter" />
-        <activity android:name=".MyChat"></activity>
-        <activity android:name=".MyAccount" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Registeration">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Sign_Up" />
+        <activity android:name=".Event_Content" />
+        <activity android:name=".MyFilter" />
+        <activity android:name=".MyChat" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
