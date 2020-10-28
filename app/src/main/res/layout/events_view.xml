@@ -20,24 +20,21 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/id_event_avatar"
         android:layout_width="54dp"
         android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/event_avatar_01"
+        app:layout_constraintVertical_bias="0.025"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         app:cardCornerRadius="29dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-        <ImageView
-            android:id="@+id/id_event_avatar"
-            android:layout_width="54dp"
-            android:layout_height="52dp"
-            android:scaleType="centerCrop"
-            tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="32dp" />
-        <!-- Frame 38 -->
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/id_event_title"
@@ -49,7 +46,7 @@
         android:text="Name"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toEndOf="@+id/id_event_avatar"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView

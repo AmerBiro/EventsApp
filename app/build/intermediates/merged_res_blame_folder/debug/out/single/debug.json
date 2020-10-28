@@ -8,12 +8,12 @@
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\back_arrow_chat.xml"
     },
     {
-        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_filter.xml.flat",
-        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\layout\\activity_my_filter.xml"
-    },
-    {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_floater_button.png.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable-xhdpi\\floater_button.png"
+    },
+    {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_filter.xml.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\layout\\activity_my_filter.xml"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_google.png.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_back_arrow.png.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable-xxxhdpi\\back_arrow.png"
+    },
+    {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_camera_24.xml.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\ic_baseline_camera_24.xml"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_arrow_account.xml.flat",
@@ -194,6 +198,10 @@
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_account.xml.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\layout\\activity_my_account.xml"
+    },
+    {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_image_24.xml.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\ic_baseline_image_24.xml"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_share.xml.flat",

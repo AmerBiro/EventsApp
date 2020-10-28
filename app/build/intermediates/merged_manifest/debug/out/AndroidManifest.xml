@@ -33,6 +33,11 @@
         <activity android:name="com.example.eventsapp.MyChat" />
         <activity android:name="com.example.eventsapp.MyAccount" />
         <activity android:name="com.example.eventsapp.MainActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.eventsapp.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

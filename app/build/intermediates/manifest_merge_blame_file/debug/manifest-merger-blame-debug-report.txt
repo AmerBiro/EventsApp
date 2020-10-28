@@ -64,6 +64,15 @@
 35        <activity android:name="com.example.eventsapp.MainActivity" />
 35-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:25:9-50
 35-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:25:19-47
-36    </application>
-37
-38</manifest>
+36
+37        <provider
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\955099753f4fe918b7be1c1ee15c393a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+38            android:name="com.squareup.picasso.PicassoProvider"
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\955099753f4fe918b7be1c1ee15c393a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+39            android:authorities="com.example.eventsapp.com.squareup.picasso"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\955099753f4fe918b7be1c1ee15c393a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+40            android:exported="false" />
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\Biro\.gradle\caches\transforms-2\files-2.1\955099753f4fe918b7be1c1ee15c393a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+41    </application>
+42
+43</manifest>
