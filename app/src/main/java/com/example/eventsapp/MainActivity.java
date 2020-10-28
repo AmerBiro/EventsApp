@@ -12,18 +12,17 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.eventsapp.databinding.ActivityMainBinding;
 import com.google.android.material.button.MaterialButton;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private ActivityMainBinding binding;
 
-    private ViewPager2 viewpager2_events_view;
     private List<MyEvents> myEventsList;
     private MyEventsAdapter myEventsAdapter;
-
-    private ImageButton button_account, button_chat, button_filter, id_button_share;
 
 
 
@@ -31,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        viewpager2_events_view = findViewById(R.id.id_viewpager2_events_view);
 
-        button_account = findViewById(R.id.id_button_account);
-        button_chat = findViewById(R.id.id_button_chat);
-        button_filter = findViewById(R.id.id_button_filter);
-        id_button_share = findViewById(R.id.id_button_share);
 
-        id_button_share.setOnClickListener(new View.OnClickListener() {
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
+
+
+        binding.idButtonShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
@@ -50,11 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
-
-
-
-        button_account.setOnClickListener(new View.OnClickListener() {
+        binding.idButtonAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MyAccount.class);
@@ -62,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button_chat.setOnClickListener(new View.OnClickListener() {
+        binding.idButtonChat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MyChat.class);
@@ -70,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button_filter.setOnClickListener(new View.OnClickListener() {
+        binding.idButtonFilter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MyFilter.class);
@@ -87,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         myEventsList.add(new MyEvents(R.drawable.event_background_05, R.drawable.event_avatar_05, "valentine day", "Anonce, indenfor 6 km"));
 
         myEventsAdapter = new MyEventsAdapter(this, myEventsList);
-        viewpager2_events_view.setAdapter(myEventsAdapter);
+        binding.idViewpager2EventsView.setAdapter(myEventsAdapter);
 
 
     }

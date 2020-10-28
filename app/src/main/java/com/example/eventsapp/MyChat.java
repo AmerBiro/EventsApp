@@ -16,6 +16,7 @@ import java.util.List;
 
 public class MyChat extends AppCompatActivity {
     private ActivityMyChatBinding binding;
+
     private MyChatFragment myChatFragment;
     private  MyFavoriteFragment myFavoriteFragment;
 
@@ -28,6 +29,7 @@ public class MyChat extends AppCompatActivity {
         binding = ActivityMyChatBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
         setContentView(view);
+
 
         binding.backArrowChat.setOnClickListener(new View.OnClickListener() {
             @Override

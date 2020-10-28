@@ -24,16 +24,6 @@ public class MyChatWithPeopleAdapter extends RecyclerView.Adapter<MyChatWithPeop
             this.myChatWithPeopleList = myChatWithPeople;
         }
 
-//    String playerName[];
-//    int images[], playerAge[], playerScore[];
-//    public RecyclerViewAdapter(Context context, String playerName[], int playerAge[], int playerScore[], int images[]) {
-//        this.context = context;
-//        this.playerName = playerName;
-//        this.playerAge = playerAge;
-//        this.playerScore = playerScore;
-//        this.images = images;
-//    }
-
         @NonNull
         @Override
         public MyViewHolderAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -50,23 +40,6 @@ public class MyChatWithPeopleAdapter extends RecyclerView.Adapter<MyChatWithPeop
             holder.person_last_message_date.setText(""+ myChatWithPeople.getLatMessageDate());
             holder.person_avatar.setImageResource(myChatWithPeople.getAvatar());
 
-//            holder.my_chat_with_people.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    Intent intent = new Intent(context, ChildPlayerView.class);
-//                    intent.putExtra("childPlayerIcon", player.playerIcon);
-//                    intent.putExtra("childPlayerScore", player.playerScore);
-//                    intent.putExtra("childPlayerAge", player.playerAge);
-//                    intent.putExtra("childPlayerName", player.playerName);
-//                    context.startActivity(intent);
-//                }
-//            });
-
-
-//        holder.playerScore.setText("" + playerScore[position]);
-//        holder.playerAge.setText("" + playerAge[position]);
-//        holder.playerName.setText(playerName[position]);
-//        holder.playerIcon.setImageResource(images[position]);
         }
 
         @Override

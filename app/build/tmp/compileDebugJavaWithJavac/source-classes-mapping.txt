@@ -1,54 +1,70 @@
-com/example/eventsapp/MyAccount.java
- com.example.eventsapp.MyAccount
- com.example.eventsapp.MyAccount$1
-com/example/eventsapp/databinding/ActivityMyChatBinding.java
- com.example.eventsapp.databinding.ActivityMyChatBinding
 com/example/eventsapp/databinding/ActivityMainBinding.java
  com.example.eventsapp.databinding.ActivityMainBinding
 com/example/eventsapp/databinding/FragmentMyFavoriteBinding.java
  com.example.eventsapp.databinding.FragmentMyFavoriteBinding
+com/example/eventsapp/databinding/ActivityRegisterationBinding.java
+ com.example.eventsapp.databinding.ActivityRegisterationBinding
 com/example/eventsapp/databinding/FragmentMyChatBinding.java
  com.example.eventsapp.databinding.FragmentMyChatBinding
-com/example/eventsapp/Event_Content.java
- com.example.eventsapp.Event_Content
-com/example/eventsapp/MyFilter.java
- com.example.eventsapp.MyFilter
- com.example.eventsapp.MyFilter$1
+com/example/eventsapp/MyChatWithPeople.java
+ com.example.eventsapp.MyChatWithPeople
 com/example/eventsapp/databinding/ActivityMyAccountBinding.java
  com.example.eventsapp.databinding.ActivityMyAccountBinding
-com/example/eventsapp/MyChatWithPeopleAdapter.java
- com.example.eventsapp.MyChatWithPeopleAdapter
- com.example.eventsapp.MyChatWithPeopleAdapter$MyViewHolderAdapter
-com/example/eventsapp/MyEvents.java
- com.example.eventsapp.MyEvents
-com/example/eventsapp/databinding/ActivityEventContentBinding.java
- com.example.eventsapp.databinding.ActivityEventContentBinding
-com/example/eventsapp/MyFavoriteFragment.java
- com.example.eventsapp.MyFavoriteFragment
-com/example/eventsapp/databinding/EventsViewBinding.java
- com.example.eventsapp.databinding.EventsViewBinding
 com/example/eventsapp/MyEventsAdapter.java
  com.example.eventsapp.MyEventsAdapter
  com.example.eventsapp.MyEventsAdapter$1
  com.example.eventsapp.MyEventsAdapter$EventsViewHolder
+com/example/eventsapp/databinding/ActivityEventContentBinding.java
+ com.example.eventsapp.databinding.ActivityEventContentBinding
+com/example/eventsapp/databinding/EventsViewBinding.java
+ com.example.eventsapp.databinding.EventsViewBinding
+com/example/eventsapp/MyChatViewPagerAdapter.java
+ com.example.eventsapp.MyChatViewPagerAdapter
 com/example/eventsapp/databinding/MyChatWithPeopleBinding.java
  com.example.eventsapp.databinding.MyChatWithPeopleBinding
 com/example/eventsapp/BuildConfig.java
  com.example.eventsapp.BuildConfig
 com/example/eventsapp/databinding/ActivityMyFilterBinding.java
  com.example.eventsapp.databinding.ActivityMyFilterBinding
-com/example/eventsapp/MyChatViewPagerAdapter.java
- com.example.eventsapp.MyChatViewPagerAdapter
+com/example/eventsapp/databinding/ActivitySignUpBinding.java
+ com.example.eventsapp.databinding.ActivitySignUpBinding
+com/example/eventsapp/DatePickerFragment.java
+ com.example.eventsapp.DatePickerFragment
+com/example/eventsapp/databinding/ActivityDatePickerFragmentBinding.java
+ com.example.eventsapp.databinding.ActivityDatePickerFragmentBinding
+com/example/eventsapp/Sign_Up.java
+ com.example.eventsapp.Sign_Up
+ com.example.eventsapp.Sign_Up$1
+ com.example.eventsapp.Sign_Up$2
+com/example/eventsapp/databinding/ActivityMyChatBinding.java
+ com.example.eventsapp.databinding.ActivityMyChatBinding
+com/example/eventsapp/Event_Content.java
+ com.example.eventsapp.Event_Content
+com/example/eventsapp/Registeration.java
+ com.example.eventsapp.Registeration
+ com.example.eventsapp.Registeration$1
+ com.example.eventsapp.Registeration$2
+com/example/eventsapp/MyEvents.java
+ com.example.eventsapp.MyEvents
+com/example/eventsapp/MyChat.java
+ com.example.eventsapp.MyChat
+ com.example.eventsapp.MyChat$1
 com/example/eventsapp/MainActivity.java
  com.example.eventsapp.MainActivity
  com.example.eventsapp.MainActivity$1
  com.example.eventsapp.MainActivity$2
  com.example.eventsapp.MainActivity$3
  com.example.eventsapp.MainActivity$4
-com/example/eventsapp/MyChatWithPeople.java
- com.example.eventsapp.MyChatWithPeople
-com/example/eventsapp/MyChat.java
- com.example.eventsapp.MyChat
- com.example.eventsapp.MyChat$1
+com/example/eventsapp/MyFilter.java
+ com.example.eventsapp.MyFilter
+ com.example.eventsapp.MyFilter$1
+com/example/eventsapp/MyChatWithPeopleAdapter.java
+ com.example.eventsapp.MyChatWithPeopleAdapter
+ com.example.eventsapp.MyChatWithPeopleAdapter$MyViewHolderAdapter
+com/example/eventsapp/MyFavoriteFragment.java
+ com.example.eventsapp.MyFavoriteFragment
 com/example/eventsapp/MyChatFragment.java
  com.example.eventsapp.MyChatFragment
+com/example/eventsapp/MyAccount.java
+ com.example.eventsapp.MyAccount
+ com.example.eventsapp.MyAccount$1

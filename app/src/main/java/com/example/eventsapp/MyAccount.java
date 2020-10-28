@@ -7,17 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class MyAccount extends AppCompatActivity {
+import com.example.eventsapp.databinding.ActivityMyAccountBinding;
 
-    ImageButton back_arrow_account;
+public class MyAccount extends AppCompatActivity {
+    private ActivityMyAccountBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_account);
 
-        back_arrow_account = findViewById(R.id.back_arrow_account);
-        back_arrow_account.setOnClickListener(new View.OnClickListener() {
+
+
+        binding = ActivityMyAccountBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
+
+        binding.backArrowAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MyAccount.this, MainActivity.class);
