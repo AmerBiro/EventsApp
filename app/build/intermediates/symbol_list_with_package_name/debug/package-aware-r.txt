@@ -1775,6 +1775,7 @@ id bidirectional
 id blocking
 id bottom
 id bounce
+id button2
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -1880,8 +1881,11 @@ id id_event_background_content
 id id_event_distance
 id id_event_title
 id id_event_view
+id id_person_avatar
+id id_person_last_message
+id id_person_message_date
+id id_person_name
 id id_tab_layout
-id id_tool_bar
 id id_view_pager
 id id_viewpager2_events_view
 id ifRoom
@@ -1959,6 +1963,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_chat_with_people
 id navigation_header_container
 id never
 id noScroll
@@ -1996,6 +2001,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rv
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2234,6 +2240,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout my_chat_with_people
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

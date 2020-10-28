@@ -11,14 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
+        <!--
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/id_tool_bar"
             android:layout_width="match_parent"
+            android:background="#000000"
             android:layout_height="?attr/actionBarSize"/>
+             -->
+
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/id_tab_layout"
             android:layout_width="match_parent"
+            android:background="#03A9F4"
             android:layout_height="wrap_content"/>
 
     </com.google.android.material.appbar.AppBarLayout>

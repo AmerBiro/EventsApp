@@ -48,20 +48,20 @@
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\event_background_05.jpg"
     },
     {
-        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_chat_24.xml.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
     },
     {
-        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_favorite_24.xml.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_event_avatar_01.png.flat",
@@ -122,6 +122,10 @@
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_favorite.xml.flat",
         "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\drawable\\icon_favorite.xml"
+    },
+    {
+        "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_chat_with_people.xml.flat",
+        "source": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\src\\main\\res\\layout\\my_chat_with_people.xml"
     },
     {
         "merged": "D:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

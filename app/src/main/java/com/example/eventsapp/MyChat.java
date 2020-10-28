@@ -1,6 +1,8 @@
 package com.example.eventsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +10,9 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.eventsapp.databinding.ActivityMyChatBinding;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MyChat extends AppCompatActivity {
     private ActivityMyChatBinding binding;
@@ -18,6 +23,7 @@ public class MyChat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_chat);
+
 
         binding = ActivityMyChatBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
@@ -32,7 +38,7 @@ public class MyChat extends AppCompatActivity {
             }
         });
 
-        setSupportActionBar(binding.idToolBar);
+//        setSupportActionBar(binding.idToolBar);
         myChatFragment = new MyChatFragment();
         myFavoriteFragment = new MyFavoriteFragment();
 
@@ -48,7 +54,6 @@ public class MyChat extends AppCompatActivity {
 
         binding.idTabLayout.getTabAt(0).setIcon(R.drawable.ic_baseline_chat_24);
         binding.idTabLayout.getTabAt(1).setIcon(R.drawable.ic_baseline_favorite_24);
-
 
     }
 }
