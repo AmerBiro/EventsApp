@@ -19,13 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.example.eventsapp.Registeration" >
+        <activity android:name="com.example.eventsapp.CreateEvent" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.eventsapp.Registeration" />
         <activity android:name="com.example.eventsapp.Sign_Up" />
         <activity android:name="com.example.eventsapp.Event_Content" />
         <activity android:name="com.example.eventsapp.MyFilter" />

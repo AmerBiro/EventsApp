@@ -47,4 +47,6 @@
         android:background="?android:attr/selectableItemBackground"
         app:srcCompat="@drawable/back_arrow_chat" />
 
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

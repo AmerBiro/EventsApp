@@ -40,6 +40,7 @@ public class MyChat extends AppCompatActivity {
             }
         });
 
+
 //        setSupportActionBar(binding.idToolBar);
         myChatFragment = new MyChatFragment();
         myFavoriteFragment = new MyFavoriteFragment();
