@@ -1,11 +1,13 @@
 package com.example.eventsapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private List<MyEvents> myEventsList;
     private MyEventsAdapter myEventsAdapter;
 
-    private ImageButton button_account, button_chat, button_filter;
+    private ImageButton button_account, button_chat, button_filter, id_button_share;
 
 
 
@@ -34,6 +36,22 @@ public class MainActivity extends AppCompatActivity {
         button_account = findViewById(R.id.id_button_account);
         button_chat = findViewById(R.id.id_button_chat);
         button_filter = findViewById(R.id.id_button_filter);
+        id_button_share = findViewById(R.id.id_button_share);
+
+        id_button_share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_SEND);
+                intent.putExtra(Intent.EXTRA_TEXT, "A new event");
+                intent.setType("text/plain");
+                startActivity(intent);
+            }
+        });
+
+
+
+
 
 
         button_account.setOnClickListener(new View.OnClickListener() {

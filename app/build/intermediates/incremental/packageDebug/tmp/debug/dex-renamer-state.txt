@@ -1,4 +1,4 @@
-#Fri Oct 23 02:09:06 CEST 2020
+#Wed Oct 28 10:36:44 GMT 2020
 base.0=D\:\\OneDrive - Danmarks Tekniske Universitet\\DTU\\3. semester\\\#1 User experience and mobile application development\\Android Studio\\AndroidStudioProjects\\EventsApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

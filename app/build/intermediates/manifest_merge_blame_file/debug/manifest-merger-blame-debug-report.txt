@@ -11,7 +11,7 @@
 9-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:5:5-24:19
+11-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,32 +32,29 @@
 22        <activity android:name="com.example.eventsapp.Event_Content" />
 22-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:12:9-60
 22-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:12:19-48
-23        <activity android:name="com.example.eventsapp.MainActivity2" />
-23-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:9-51
-23-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:19-48
-24        <activity android:name="com.example.eventsapp.MyFilter" />
-24-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:9-46
-24-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:19-43
-25        <activity android:name="com.example.eventsapp.MyChat" />
-25-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:9-44
-25-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:19-41
-26        <activity android:name="com.example.eventsapp.MyAccount" />
-26-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:9-47
-26-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:19-44
-27        <activity android:name="com.example.eventsapp.MainActivity" >
-27-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:17:9-23:20
-27-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:17:19-47
-28            <intent-filter>
-28-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:17-69
-29-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:17-77
-31-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+23        <activity android:name="com.example.eventsapp.MyFilter" />
+23-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:9-46
+23-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:13:19-43
+24        <activity android:name="com.example.eventsapp.MyChat" >
+24-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:9-20:20
+24-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:14:19-41
+25            <intent-filter>
+25-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:17-69
+26-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:17-77
+28-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.eventsapp.MyAccount" />
+31-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:9-47
+31-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:21:19-44
+32        <activity android:name="com.example.eventsapp.MainActivity" />
+32-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:22:9-59
+32-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:22:19-47
+33    </application>
+34
+35</manifest>

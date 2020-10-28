@@ -20,17 +20,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.EventsApp" >
         <activity android:name="com.example.eventsapp.Event_Content" />
-        <activity android:name="com.example.eventsapp.MainActivity2" />
         <activity android:name="com.example.eventsapp.MyFilter" />
-        <activity android:name="com.example.eventsapp.MyChat" />
-        <activity android:name="com.example.eventsapp.MyAccount" />
-        <activity android:name="com.example.eventsapp.MainActivity" >
+        <activity android:name="com.example.eventsapp.MyChat" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.eventsapp.MyAccount" />
+        <activity android:name="com.example.eventsapp.MainActivity" />
     </application>
 
 </manifest>
