@@ -7,6 +7,7 @@
     android:background="@drawable/background_blue"
     tools:context=".CreateEvent">
 
+
     <ImageView
         android:id="@+id/id_event_image"
         android:layout_width="76dp"
@@ -135,14 +136,14 @@
         app:layout_constraintVertical_bias="0.469" />
 
     <TextView
-        android:id="@+id/id_event_date_picker"
+        android:id="@+id/event_date_time"
         style="@style/sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:ems="14"
         android:hint="Date and Time:"
-        android:inputType="text"
+        android:inputType="date"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="12sp"
@@ -173,43 +174,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.52" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#ffffff"
-        android:ems="14"
-        android:hint=""
-        android:enabled="false"
-        android:inputType="none"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"  />
 
-    <TextView
-        android:id="@+id/id_event_age_picker"
+    <EditText
+        android:id="@+id/id_event_age"
         style="@style/sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:ems="14"
         android:hint="Age:"
-        android:paddingBottom="2dp"
-        android:inputType="text"
+        android:inputType="number"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="12sp"
-        android:paddingLeft="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"  />
-
+        app:layout_constraintVertical_bias="0.571" />
 
     <EditText
         android:id="@+id/id_event_description"
@@ -230,7 +212,7 @@
         app:layout_constraintVertical_bias="0.653" />
 
     <Button
-        android:id="@+id/creatEvent"
+        android:id="@+id/floater_creatEvent"
         style="@style/sign_up"
         android:layout_width="48dp"
         android:layout_height="48dp"
@@ -245,7 +227,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <ImageButton
-        android:id="@+id/id_button_sign_up_back_arrow"
+        android:id="@+id/id_back_arrow_create_event"
         android:layout_width="16dp"
         android:layout_height="24dp"
         android:layout_marginStart="16dp"

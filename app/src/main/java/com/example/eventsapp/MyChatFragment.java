@@ -12,8 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.eventsapp.databinding.FragmentMyChatBinding;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +26,7 @@ public class MyChatFragment extends Fragment {
             View view = inflater.inflate(R.layout.fragment_my_chat, container, false);
             recyclerView = view.findViewById(R.id.rv);
 
-            button = view.findViewById(R.id.creatEvent);
+            button = view.findViewById(R.id.floatercreatEvent);
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

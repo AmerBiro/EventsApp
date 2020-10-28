@@ -44,7 +44,7 @@
 27            </intent-filter>
 28        </activity>
 29        <activity android:name="com.example.eventsapp.Registeration" />
-29-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:9-51
+29-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:9-60
 29-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:19:19-48
 30        <activity android:name="com.example.eventsapp.Sign_Up" />
 30-->D:\OneDrive - Danmarks Tekniske Universitet\DTU\3. semester\#1 User experience and mobile application development\Android Studio\AndroidStudioProjects\EventsApp\app\src\main\AndroidManifest.xml:20:9-45

@@ -1821,7 +1821,6 @@ id content
 id contentPanel
 id coordinator
 id cos
-id creatEvent
 id custom
 id customPanel
 id cut
@@ -1858,6 +1857,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id event_date_time
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1869,6 +1869,8 @@ id filled
 id fitToContents
 id fixed
 id flip
+id floater_creatEvent
+id floatercreatEvent
 id floating
 id forever
 id ghost_view
@@ -1887,6 +1889,7 @@ id homeAsUp
 id honorRequest
 id icon
 id icon_group
+id id_back_arrow_create_event
 id id_button_account
 id id_button_chat
 id id_button_favorite
@@ -1907,10 +1910,9 @@ id id_edit_text_sign_up_first_name
 id id_edit_text_sign_up_last_name
 id id_edit_text_sign_up_password
 id id_event_address
-id id_event_age_picker
+id id_event_age
 id id_event_avatar
 id id_event_background_content
-id id_event_date_picker
 id id_event_description
 id id_event_distance
 id id_event_image

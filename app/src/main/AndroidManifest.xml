@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registeration" />
+        <activity android:name=".Registeration"></activity>
         <activity android:name=".Sign_Up" />
         <activity android:name=".Event_Content" />
         <activity android:name=".MyFilter" />

@@ -15,7 +15,7 @@
 
 
     <Button
-        android:id="@+id/creatEvent"
+        android:id="@+id/floatercreatEvent"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_button"
