@@ -1,37 +1,42 @@
 package com.example.eventsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
 
 import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.text.InputType;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.io.IOException;
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import com.example.eventsapp.databinding.ActivityCreateEventBinding;
-import com.theartofdev.edmodo.cropper.CropImage;
-import com.theartofdev.edmodo.cropper.CropImageView;
 
-public class CreateEvent extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+
+public class CreateEvent extends AppCompatActivity  {
     private ActivityCreateEventBinding binding;
     private static final int PICK_IMAGE = 1;
     Uri imageUri;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_event);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
 
 
         binding = ActivityCreateEventBinding.inflate(getLayoutInflater());
@@ -48,11 +53,10 @@ public class CreateEvent extends AppCompatActivity implements DatePickerDialog.O
             }
         });
 
-        binding.eventDateTime.setOnClickListener(new View.OnClickListener() {
+        binding.eventDateTimeButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                DialogFragment dialogFragment = new DatePickerFragment();
-                dialogFragment.show(getSupportFragmentManager(), "event date picker");
+            public void onClick(View v) {
+                showDateTimeDialog(binding.eventDateTime);
             }
         });
 
@@ -71,39 +75,52 @@ public class CreateEvent extends AppCompatActivity implements DatePickerDialog.O
             }
         });
     }
-    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR, i);
-        calendar.set(Calendar.MONTH, i1);
-        calendar.set(Calendar.DAY_OF_MONTH, i2);
-        String birthDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
-        binding.eventDateTime.setText(birthDate);
-    }
+
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == PICK_IMAGE && resultCode == RESULT_OK && data != null) {
+        if (requestCode == PICK_IMAGE && resultCode == RESULT_OK ) {
             imageUri = data.getData();
-
-            CropImage.activity()
-                    .setGuidelines(CropImageView.Guidelines.ON)
-                    .setAspectRatio(1, 1)
-                    .start(this);
-        }
-        if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
-            CropImage.ActivityResult result = CropImage.getActivityResult(data);
-            if (requestCode == RESULT_OK) {
-                Uri resultUri = result.getUri();
-
                 try {
-                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), resultUri);
+                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageUri);
                     binding.idEventImage.setImageBitmap(bitmap);
                 } catch (IOException e) {
                     e.printStackTrace();
-                }
             }
         }
     }
+
+    private void showDateTimeDialog(final EditText date_time_in) {
+        final Calendar calendar = Calendar.getInstance();
+        DatePickerDialog.OnDateSetListener dateSetListener=new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                calendar.set(Calendar.YEAR,year);
+                calendar.set(Calendar.MONTH,month);
+                calendar.set(Calendar.DAY_OF_MONTH,dayOfMonth);
+
+                TimePickerDialog.OnTimeSetListener timeSetListener = new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+                        calendar.set(Calendar.HOUR_OF_DAY,hourOfDay);
+                        calendar.set(Calendar.MINUTE,minute);
+
+                        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+
+                        date_time_in.setText(simpleDateFormat.format(calendar.getTime()));
+                    }
+                };
+
+                new TimePickerDialog(CreateEvent.this,timeSetListener,calendar.get(Calendar.HOUR_OF_DAY),calendar.get(Calendar.MINUTE),false).show();
+            }
+        };
+
+        new DatePickerDialog(CreateEvent.this,dateSetListener,calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH),calendar.get(Calendar.DAY_OF_MONTH)).show();
+
+    }
+
 }

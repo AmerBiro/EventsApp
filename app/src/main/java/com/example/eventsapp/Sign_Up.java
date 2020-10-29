@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.DatePicker;
 
 import java.text.DateFormat;
 import java.util.Calendar;
@@ -30,7 +29,7 @@ public class Sign_Up extends AppCompatActivity implements DatePickerDialog.OnDat
         binding.idDatePicker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DialogFragment dialogFragment = new DatePickerFragment();
+                DialogFragment dialogFragment = new DatePicker();
                 dialogFragment.show(getSupportFragmentManager(), "date picker");
             }
         });
@@ -47,7 +46,7 @@ public class Sign_Up extends AppCompatActivity implements DatePickerDialog.OnDat
     }
 
     @Override
-    public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+    public void onDateSet(android.widget.DatePicker datePicker, int i, int i1, int i2) {
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.YEAR, i);
         calendar.set(Calendar.MONTH, i1);

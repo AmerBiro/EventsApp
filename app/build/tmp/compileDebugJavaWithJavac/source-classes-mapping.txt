@@ -4,6 +4,8 @@ com/example/eventsapp/databinding/FragmentMyFavoriteBinding.java
  com.example.eventsapp.databinding.FragmentMyFavoriteBinding
 com/example/eventsapp/databinding/ActivityRegisterationBinding.java
  com.example.eventsapp.databinding.ActivityRegisterationBinding
+com/example/eventsapp/DatePicker.java
+ com.example.eventsapp.DatePicker
 com/example/eventsapp/databinding/FragmentMyChatBinding.java
  com.example.eventsapp.databinding.FragmentMyChatBinding
 com/example/eventsapp/databinding/ActivityMyAccountBinding.java
@@ -33,8 +35,6 @@ com/example/eventsapp/databinding/ActivitySignUpBinding.java
  com.example.eventsapp.databinding.ActivitySignUpBinding
 com/example/eventsapp/databinding/ActivityCreateEventBinding.java
  com.example.eventsapp.databinding.ActivityCreateEventBinding
-com/example/eventsapp/DatePickerFragment.java
- com.example.eventsapp.DatePickerFragment
 com/example/eventsapp/databinding/ActivityDatePickerFragmentBinding.java
  com.example.eventsapp.databinding.ActivityDatePickerFragmentBinding
 com/example/eventsapp/MyChat.java
@@ -74,6 +74,8 @@ com/example/eventsapp/CreateEvent.java
  com.example.eventsapp.CreateEvent$2
  com.example.eventsapp.CreateEvent$3
  com.example.eventsapp.CreateEvent$4
+ com.example.eventsapp.CreateEvent$5
+ com.example.eventsapp.CreateEvent$5$1
 com/example/eventsapp/MyChatFragment.java
  com.example.eventsapp.MyChatFragment
  com.example.eventsapp.MyChatFragment$1

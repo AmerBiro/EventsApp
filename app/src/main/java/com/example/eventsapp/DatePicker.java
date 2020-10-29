@@ -11,7 +11,7 @@ import android.os.Bundle;
 
 import java.util.Calendar;
 
-public class DatePickerFragment extends DialogFragment {
+public class DatePicker extends DialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
