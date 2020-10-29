@@ -116,6 +116,7 @@
         android:textColorHint="@color/white"
         android:textSize="12sp"
         android:paddingLeft="4dp"
+        android:padding="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

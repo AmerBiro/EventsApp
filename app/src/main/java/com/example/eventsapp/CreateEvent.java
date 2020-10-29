@@ -53,10 +53,11 @@ public class CreateEvent extends AppCompatActivity  {
             }
         });
 
-        binding.eventDateTimeButton.setOnClickListener(new View.OnClickListener() {
+//        binding.eventDateTime.setInputType(InputType.TYPE_NULL);
+        binding.eventDateTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showDateTimeDialog(binding.eventDateTime);
+                showDateTimeDialog(binding.line);
             }
         });
 

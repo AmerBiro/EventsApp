@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintVertical_bias="0.024"
         tools:ignore="MissingConstraints" />
 
     <RadioGroup
@@ -119,13 +119,18 @@
         app:layout_constraintVertical_bias="0.408" />
 
 
+
+
+
     <EditText
+        android:id="@+id/line"
+        style="@style/sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:ems="14"
+        android:hint="Date and Time:"
         android:enabled="false"
-        android:hint=""
         android:inputType="none"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -134,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+        app:layout_constraintVertical_bias="0.458" />
 
     <TextView
         android:id="@+id/event_date_time"
@@ -143,18 +148,18 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#ffffff"
         android:ems="14"
-        android:hint="Date and Time:"
+        android:hint=""
         android:inputType="date"
-        android:paddingLeft="4dp"
-        android:paddingBottom="2dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="12sp"
+        android:paddingLeft="4dp"
+        android:padding="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.469" />
+        app:layout_constraintVertical_bias="0.458"  />
 
 
     <EditText
