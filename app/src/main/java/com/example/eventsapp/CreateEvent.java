@@ -1,6 +1,5 @@
 package com.example.eventsapp;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
 
@@ -20,6 +19,8 @@ import java.text.DateFormat;
 import java.util.Calendar;
 
 import com.example.eventsapp.databinding.ActivityCreateEventBinding;
+import com.theartofdev.edmodo.cropper.CropImage;
+import com.theartofdev.edmodo.cropper.CropImageView;
 
 public class CreateEvent extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     private ActivityCreateEventBinding binding;
@@ -80,15 +81,28 @@ public class CreateEvent extends AppCompatActivity implements DatePickerDialog.O
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == PICK_IMAGE && resultCode == RESULT_OK){
+
+        if (requestCode == PICK_IMAGE && resultCode == RESULT_OK && data != null) {
             imageUri = data.getData();
-            try {
-                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageUri);
-                binding.idEventImage.setImageBitmap(bitmap);
-            }catch (IOException e){
-                e.printStackTrace();
+
+            CropImage.activity()
+                    .setGuidelines(CropImageView.Guidelines.ON)
+                    .setAspectRatio(1, 1)
+                    .start(this);
+        }
+        if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
+            CropImage.ActivityResult result = CropImage.getActivityResult(data);
+            if (requestCode == RESULT_OK) {
+                Uri resultUri = result.getUri();
+
+                try {
+                    Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), resultUri);
+                    binding.idEventImage.setImageBitmap(bitmap);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
